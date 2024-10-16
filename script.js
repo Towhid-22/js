@@ -103,19 +103,41 @@
 // *Access with Id
 // let idHeading = document.getElementById("heading");
 // console.log(idHeading);
-
-
-
 // *Access with querySelector
 // !tageName
 // let select1 = document.querySelector("h1");
 // !access className with dot (.)
 // let select2 = document.querySelector(".heading");
 // !access IdName with #
-let select3 = document.querySelector("#heading");
-console.log(select3);
+// let select3 = document.querySelector("#heading");
+// console.log(select3);
 
 // *Changing HTML tag content with innerHTML
-let text = document.getElementsByTagName("p")[0];
-console.log(text.innerHTML = "Dhaka is the capital city of Bangladesh.");
-document.querySelector("p").innerHTML = "HTML";
+// let text = document.getElementsByTagName("p")[0];
+// console.log(text.innerHTML = "Dhaka is the capital city of Bangladesh.");
+// document.querySelector("p").innerHTML = "HTML";
+
+// *Access HTML attribute (id, class, href, style)
+// let head1 = document.querySelector("h1");
+// console.log(head1.id);
+// *Changing HTML attribute (id, class, href, style)
+// let head2 = document.querySelector("h1");
+// head2.id = "head3"
+// console.log(head2.id);
+// *Add class or id in HTML tag
+let para = document.querySelector("p").className = "para";
+// para.className = "para";
+// *Create a tag or element in HTML
+// let createElement = document.createElement("a");
+// console.log(createElement.innerHTML = "Submit");
+// ? Access in HTML body
+// document.querySelector("body").appendChild(createElement);
+// *Remove a HTML tag
+document.querySelector("p").remove();
+// *Access Parent nodes
+let li = document.querySelector("li");
+// console.log(li.parentNode);
+// console.log(li.nextElementSibling);
+console.log(li.previousElementSibling);
+// let ul = document.querySelector("ul");
+// console.log(ul.childNodes[5]);
